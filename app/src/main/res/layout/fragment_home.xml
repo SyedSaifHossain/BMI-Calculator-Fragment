@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment"
+    android:background="#78CEE3">
+
+    <EditText
+        android:id="@+id/weightEtx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your weight"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/heightEtx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your height"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/calculatBtn"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="10sp"
+        android:text="Calculation"
+        android:textSize="25sp"
+        app:strokeWidth="3dp"
+        android:textColor="#08AF5A"
+        android:layout_marginHorizontal="30dp"
+        app:strokeColor="#1D2C49"/>
+</LinearLayout>
